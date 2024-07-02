@@ -1,0 +1,321 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+nav{
+    background-color: whitesmoke;
+    padding: 0 95px;
+    position: sticky !important;
+    top: 0;
+    z-index: 999999;
+    
+}
+header{
+    background: linear-gradient(to bottom, rgba(92, 77, 66, 0.8) 0%, rgba(92, 77, 66, 0.8) 100%), url(bg-masthead.jpg);
+    background-image: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 70px 0 170px 0;
+    
+}
+nav a{
+    color: black;
+    font-family: sans-serif;
+    margin-right: 30px;
+    font-weight: bold;
+}
+.headerdiv{
+    margin-top: 200px;
+}
+.headerdiv>h1{
+    font-size: 55px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+.headerdiv>hr{
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+}
+.headerdiv>p{
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.headerdiv>button{
+    background-color: #F4623A;
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 35px;
+}
+.headerdiv>button:hover{
+    color: white;
+    background-color: #f04819;
+}
+.section1{
+    background-color: #F4623A;
+    padding: 90px 0;
+    margin-bottom: 150px;
+}
+.section1 h2{
+    font-size: 35px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+.section1 hr{
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: white;
+    opacity: 1;
+}
+.section1 p{
+    font-size: 18px;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.section1 button{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 20px 35px;
+}
+.section1 button:hover{
+    color: black;
+    background-color: rgb(219, 217, 217);
+}
+.section2{
+    margin-bottom: 130px;
+}
+.section2div1>h2{
+    color: black;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+}
+.section2div1>hr{
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+    margin-bottom: 50px;
+}
+.section2div2 i{
+    color: #F4623A;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.section2div2 h2{
+    font-size: 24px;
+    letter-spacing: 0.5px;
+    margin-bottom: 8px;
+}
+.section2div2 p{
+    font-size: 20px;
+    line-height: 28px;
+    font-family: serif;
+}
+.img1{
+    background: url(1.jpg) center/cover no-repeat;
+    height: 270px;
+    position: relative;
+}
+.img2{
+    background: url(2.jpg) center/cover no-repeat;
+    height: 270px;
+    position: relative;
+}
+.img3{
+    background: url(3.jpg) center/cover no-repeat;
+    height: 270px;
+    position: relative;
+}
+.img4{
+    background: url(4.jpg) center/cover no-repeat;
+    height: 270px;
+    position: relative;;
+}
+.img5{
+    background: url(5.jpg) center/cover no-repeat;
+    height: 270px;
+    position: relative;
+}
+.img6{
+    background: url(6.jpg) center/cover no-repeat;
+    height: 270px;
+    position: relative;
+
+}
+.section3>.row>div:before{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    background-color: #F4623A;
+
+}
+.section3>.row>div:hover:before{
+    opacity: 0.6;
+}
+.img1>div, .img2>div, .img3>div, .img4>div, .img5>div, .img6>div{
+    opacity: 0;
+    position: absolute;
+    top: 35%;
+    left: 33%;
+    z-index: 2;
+}
+.img1:hover div{
+   opacity: 1;
+}
+.img2:hover div{
+    opacity: 1;
+}
+
+.img3:hover div{
+    opacity: 1;
+}
+.img4:hover div{
+    opacity: 1;
+}
+.img5:hover div{
+    opacity: 1;
+}
+.img6:hover div{
+    opacity: 1;
+}
+.section3>p{
+    font-family: serif;
+    font-size: 15px;
+    font-weight: bold;
+}
+.first-p{
+    color: rgba(231, 229, 229, 0.8);
+    font-size: sans-serif;
+    font-size: 15px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-bottom: -5px;
+    text-transform: uppercase;
+}
+.second-p{
+    font-family: serif;
+    font-size: 25px;
+    letter-spacing: 1px;
+    font-weight: bold;
+    margin-top: 0;
+}
+.section4{
+    background-color: #212529;
+    padding: 100px 0;
+    margin-bottom: 100px;
+}
+.section4 p{
+    font-size: 40px;
+    color: white;
+    margin-bottom: 26px;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+.section4 button{
+    background-color: white;
+    color: black;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    padding: 20px 35px;
+}
+.section4 button:hover{
+    color: black;
+    background-color: rgb(219, 217, 217);
+}
+footer{
+    padding-bottom: 50px;
+}
+footer h2{
+    color: black;
+    font-size: 40px;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+}
+footer hr{
+    height: 0.2rem;
+    max-width: 3.25rem;
+    margin: 1.5rem auto;
+    background-color: #f4623a;
+    opacity: 1;
+    margin-bottom: 15px;
+}
+footer p{
+    color: rgb(66, 66, 66);
+    font-size: 19px;
+    margin-bottom: 69px;
+    letter-spacing: 0.5px;
+    line-height: 28px;
+}
+footer input{
+    color: black;
+    margin-bottom: 20px;
+    padding: 10px 10px !important;
+    border-radius: 8px;
+}
+.flex-nowrap{
+    width: 49%;
+}
+textarea{
+    height: 140px;
+    margin-bottom: 20px;
+}
+.lastdiv>button{
+    background-color: rgba(244, 98, 58, 0.6);
+    color: white;
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    padding: 20px 35px;
+    width: 100%;
+    margin-bottom: 60px;
+}
+.lastdiv>i{
+    color:rgb(66, 66, 66);
+    margin-bottom: 5px;
+    font-size: 48px;
+}
+.lastdiv>p{
+    color: black;
+    letter-spacing: 1px;
+    font-size: 17px;
+    margin-bottom:110px;
+}
+.lastdiv>h6{
+    color: rgb(81, 81, 81);
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+@media (max-width: 900px){
+    nav{
+        padding-right: 10px;
+        padding-left: 10px;
+    }
+    .headerdiv>h1{
+        font-size: 40px;
+    }
+    .row{
+        flex-wrap: wrap;
+    }
+    
+}
+    
